@@ -1,0 +1,85 @@
+
+.parentDiv{
+    width: 100%;
+    
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+  .maindiv{
+    width: 257px;
+    height: 130px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .counter{
+    width: 180px;
+    height: 56px;
+    border: 1px solid #B24242;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+  }
+  .counter > div, .counter  > input {
+    width: 60px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #B24242;
+    background-color: #FBE8E8;
+    color: #B24242;
+    font-size: 21px;
+    font-weight: 900;
+    
+    
+    
+    
+  }
+  .counter > div:first-child{
+    border-radius: 8px 0px 0px 8px;
+    background-color: transparent;
+  }
+  .counter > div:last-child{
+    border-radius: 0px 8px 8px 0px;
+    border-right: none;
+    color: #ffffff;
+    background-color: #B24242;
+    
+  }
+  
+  .counter > div:first-child > button{
+      width: 7px;
+      
+    
+  }
+  .counter > div:last-child > button{
+    width: 14px;
+   
+    color: #ffffff;
+  }
+  button{
+    font-size: 21px;
+    height: 29px;
+      background: none;
+      border: none;
+      font-weight: 900;
+      display: flex;
+      justify-content: center;
+  }
+  
+  input{
+    border: none;
+    text-align: center;
+    border: 1px solid #B24242;
+  }
